@@ -69,7 +69,7 @@ public class Sample {
 						+ "2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&"
 						+ "openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspe"
 						+ "cs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&");
-		driver.findElement(By.id("ap_password")).sendKeys("jxjy2006");
+		driver.findElement(By.id("ap_password")).sendKeys("");
 		driver.findElement(By.id("ap_email")).sendKeys("jiao.yi1@husky.neu.edu");
 		Thread.sleep(3000);
 
